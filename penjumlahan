@@ -1,5 +1,9 @@
 #include<iostream.h>
-int x,y,z;
+int x,y,z,z2;
+void perkalian(x,y)
+{
+z2=x*y;
+}
 void pertambahan(x,y)
 {
 z= x+y;
@@ -10,4 +14,6 @@ cout << "masukan nilai1 = ";cin >> x;
 cout << "masukan nilai2 = ";cin >> y;
 pertambahan(x,y);
 cout << "hasil penjumlahan = " << z << endl;
+perkalian(x,y)
+cout << "hasil perkalian = "<< z2 << endl;
 }
