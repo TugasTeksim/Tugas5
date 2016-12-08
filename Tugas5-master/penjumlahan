@@ -1,0 +1,25 @@
+#include<iostream.h>
+int z;
+void pembagian(x,y){
+	z=x/y;
+}
+void perkalian(x,y)
+{
+	z=x*y;
+}
+void pertambahan(x,y)
+{
+	z= x+y;
+}
+void main()
+{
+	int x,y;
+	cout << "masukan nilai1 = ";cin >> x;
+	cout << "masukan nilai2 = ";cin >> y;
+	pertambahan(x,y);
+	cout << "hasil penjumlahan = " << z << endl;
+	perkalian(x,y);
+	cout << "hasil perkalian = "<< z << endl;
+	pembagian(x,y);
+	cout << "hasil perkalian = "<< z << endl;
+}
